@@ -1,0 +1,18 @@
+2. Git Basics - Getting a Git Repository
+    2.1. Initializing a Repository in an Existing Directory
+            for Linux:
+                $ cd /home/user/my_project
+            for macOS:
+                $ cd /Users/user/my_project
+            for Windows:
+                $ cd C:/Users/user/my_project
+            and type:
+                $ git init // To initialize in root directory
+                $ git status // To check current status
+                $ git diff // To check difference
+                $ touch index.html // Create index file
+                $ git add index.html // Add single file in a project
+                $ git add . // Add all file/folder in a project
+                $ git commit -m "message you want to type"
+    2.2. Cloning an Existing Repository
+            $ git clone https://github.com/AUIArafat/Git-Hacks.git
