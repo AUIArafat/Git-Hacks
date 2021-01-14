@@ -1,0 +1,12 @@
+3. Git Branching - Branches in a Nutshell
+    3.1. Creating a New Branch
+            $ git branch testing // Here creating a new branch called testing
+            $ git log --oneline --decorate // shows you where the branch pointers are pointing. This option is called --decorate
+            $ git branch // To see local branch name
+            $ git branch -r // To see remote branch name
+            $ git branch -a // To see all branch name
+            $ git branch -d // branch_name To delete branch
+            $ git branch -D // branch_name To delete branch forcefully
+    3.2. Switching Branches
+            $ git checkout testing // This moves HEAD to point to the testing branch.
+            $ git checkout -b testing // Create a branch and move to testing branch instantly
